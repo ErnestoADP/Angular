@@ -3,6 +3,7 @@ import { CommonModule } from "@angular/common";
 
 import { HeroComponent } from "./hero/hero.component";
 import { ListComponent } from "./list/list.component";
+//import { addComponentDbz } from "../dbz/components/add/add.component";
 
 
 
@@ -10,10 +11,12 @@ import { ListComponent } from "./list/list.component";
   declarations:[
     HeroComponent,
     ListComponent,
+  //  addComponentDbz
   ],
   exports:[
     HeroComponent,
     ListComponent,
+   // addComponentDbz
   ],
   imports:[
     CommonModule

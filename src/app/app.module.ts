@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { CounterModul } from './counter/counter.module';
-import { heroModule } from './hereos/hero.module';
-
+//import { heroModule } from './hereos/hero.module';
+import { DbzModule } from './dbz/dbz.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
 //importando
 
 
@@ -19,7 +20,8 @@ import { AppComponent } from './app.component';
     BrowserModule,
     AppRoutingModule,
     CounterModul,
-    heroModule
+    //HeroModule,
+    DbzModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
